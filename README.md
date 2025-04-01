@@ -10,8 +10,8 @@ java 代码依赖pom
 #### 安装教程
 ```xml
  <parent>
-    <groupId>org.elsfs.parent</groupId>
-    <artifactId>elsfs-parent</artifactId>
+    <groupId>com.elsff.parent</groupId>
+    <artifactId>elsff-parent</artifactId>
     <version>parent.version</version>
     <relativePath/>
   </parent>
