@@ -13,9 +13,9 @@
     elsff-parent是一个maven pom依赖，最新依赖包括spring系列，mybatis-plsu，maven插件，dubbo，quarkus，jakarta 系列等等。
   </description>
   <url>https://github.com/hello-mini/elsff-parent</url>
-  <modules>
-    <module>bom-test</module>
-  </modules>
+<!--  <modules>-->
+<!--    <module>bom-test</module>-->
+<!--  </modules>-->
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <mybatis.plus.version>3.5.9</mybatis.plus.version>

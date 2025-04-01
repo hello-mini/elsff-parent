@@ -1,4 +1,4 @@
-# elsfs-parent
+# elsff-parent
 
 #### 介绍
 java 代码依赖pom
@@ -20,7 +20,7 @@ java 代码依赖pom
 
 1.  本仓库只提供pom依赖
 2.  本仓库不定期更新依赖并发布新的版本到maven中央仓库
-3.  该储存库发布到maven中央仓库的只有pom.xml,并使用  **gpg -a  --detach-sign  elsfs-parent-版本号.pom** 生成签名
+3.  该储存库发布到maven中央仓库的只有pom.xml,并使用  **gpg -a  --detach-sign  elsff-parent-版本号.pom** 生成签名
 
 #### 参与贡献
 
