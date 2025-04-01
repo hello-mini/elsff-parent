@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE import-control PUBLIC "-//Checkstyle//DTD ImportControl Configuration 1.4//EN"
+  "https://checkstyle.org/dtds/import_control_1_4.dtd">
+<!--。这个文件是由Checkstyle项目提供的-->
+<import-control pkg="org|com" strategyOnMismatch="allowed" regex="true">
+
+  <!--使用JUnit5注释。-->
+  <allow class="org.junit.runner.RunWith"/>
+  <allow pkg="org.junit.platform"/>
+  <allow pkg="org.junit.jupiter"/>
+  <!--不允许使用下面的包 -->
+  <disallow pkg="org.junit" exact-match="true"/>
+  <disallow pkg="org.jetbrains.annotations" exact-match="true"/>
+  <disallow pkg="org.junit.Assert"/>
+  <disallow pkg="org.hamcrest"/>
+  <disallow pkg="org\.junit\.(runners?|experimental\.categories)" regex="true"/>
+  <!--子包允许使用-->
+  <subpackage name="junit">
+    <allow pkg="org.junit" exact-match="true"/>
+    <allow pkg="org\.junit\.runners?" regex="true"/>
+  </subpackage>
+</import-control>
