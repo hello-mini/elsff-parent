@@ -12,7 +12,7 @@
     elsff parent is a Maven POM dependency, with the latest dependencies including the Spring series, Mybatis PLSU, Maven plugins, Dubbo, Quarcus, Jakarta series, and more.
     elsff-parent是一个maven pom依赖，最新依赖包括spring系列，mybatis-plsu，maven插件，dubbo，quarkus，jakarta 系列等等。
   </description>
-  <url>https://gitee.com/elsff-parent</url>
+  <url>https://github.com/hello-mini/elsff-parent</url>
   <modules>
     <module>bom-test</module>
   </modules>
@@ -761,18 +761,18 @@
   <licenses>
     <license>
       <name>GNU Lesser General Public License v2.1</name>
-      <url>https://gitee.com/elsfs/gitee-parent/master/LICENSE</url>
+      <url>https://github.com/hello-mini/elsff-parent/main/LICENSE</url>
       <distribution>repo</distribution>
     </license>
   </licenses>
   <scm>
-    <connection>scm:git:https://gitee.com/elsfs/gitee-parent.git</connection>
-    <developerConnection>scm:git:https://gitee.com/elsfs/elsff-parent.git</developerConnection>
-    <url>https://gitee.com/elsfs/elsff-parent</url>
+    <connection>scm:git:https://github.com/hello-mini/elsff-parent.git</connection>
+    <developerConnection>scm:git:https://github.com/hello-mini/elsff-parent.git</developerConnection>
+    <url>https://github.com/hello-mini/elsff-parent</url>
   </scm>
   <issueManagement>
-    <url>https://gitee.com/elsfs/elsff-parent/issues</url>
-    <system>gitee Issues</system>
+    <url>https://github.com/hello-mini/elsff-parent/issues</url>
+    <system>Github Issues</system>
   </issueManagement>
   <developers>
     <developer>
@@ -784,7 +784,7 @@
         <role>Architect</role>
       </roles>
       <timezone>+8</timezone>
-      <url>https://gitee.com/elsff-parent</url>
+      <url>https://github.com/hello-mini/elsff-parent</url>
     </developer>
   </developers>
 
